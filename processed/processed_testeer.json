@@ -1,0 +1,480 @@
+{
+    "label": "Hunter_GigaTraining_1",
+    "schema": "resources/v1/schema/spidacalc/calc/project.schema",
+    "version": 9,
+    "clientFile": "",
+    "clientFileVersion": "",
+    "date": "2024-11-08",
+    "engineer": "",
+    "generalLocation": "",
+    "address": {
+        "number": "",
+        "street": "Sierra Drive Southeast",
+        "city": "Albuquerque",
+        "county": "Bernalillo County",
+        "state": "New Mexico",
+        "zip_code": ""
+    },
+    "comments": "",
+    "userDefinedValues": {},
+    "forms": [],
+    "leads": [
+        {
+            "label": "Hunter_GigaTraining_1",
+            "locations": [
+                {
+                    "label": "U - 001 - ",
+                    "address": {
+                        "number": "",
+                        "street": "",
+                        "city": "",
+                        "county": "",
+                        "state": "",
+                        "zip_code": ""
+                    },
+                    "comments": "",
+                    "designs": [
+                        {
+                            "label": "Existing",
+                            "analysis": [],
+                            "geographicCoordinate": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -106.598836,
+                                    35.069798
+                                ]
+                            },
+                            "structure": {
+                                "pole": {
+                                    "externalId": "-O1YQn3ZZugB9JZigyS_",
+                                    "agl": {
+                                        "unit": "INCH",
+                                        "value": 415.52
+                                    },
+                                    "leanAngle": 0,
+                                    "leanDirection": 0,
+                                    "environment": "PARALLEL_TO_STREET",
+                                    "temperature": {
+                                        "unit": "FAHRENHEIT",
+                                        "value": 60
+                                    },
+                                    "stressRatio": 1,
+                                    "clientItem": {
+                                        "height": {
+                                            "unit": "FOOT",
+                                            "value": 40
+                                        },
+                                        "classOfPole": "Missing pole_class on SCID 001",
+                                        "species": "Missing pole_species on SCID001"
+                                    },
+                                    "owner": {
+                                        "id": "PNM",
+                                        "industry": "UTILITY"
+                                    }
+                                },
+                                "foundations": [],
+                                "anchors": [
+                                    {
+                                        "id": "Anchor#1",
+                                        "externalId": "-O349ZyxYfnHCueWnqa9",
+                                        "distance": {
+                                            "unit": "FOOT",
+                                            "value": 18
+                                        },
+                                        "direction": 132,
+                                        "height": {
+                                            "unit": "FOOT",
+                                            "value": 0
+                                        },
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "supportType": "Other",
+                                        "guys": [
+                                            "DownGuy#1"
+                                        ],
+                                        "clientItem": "Missing anchor_spec on SCID 001",
+                                        "supportedWEPs": []
+                                    }
+                                ],
+                                "wireEndPoints": [
+                                    {
+                                        "id": "WEP#1",
+                                        "externalId": "-O349jRtDVVCxh0Rt0kA",
+                                        "connectionId": "b1d1f6e6ec27b00667ebf7be",
+                                        "distance": {
+                                            "unit": "FOOT",
+                                            "value": 31
+                                        },
+                                        "direction": 172,
+                                        "type": "BUILDING",
+                                        "relativeElevation": {
+                                            "unit": "INCH",
+                                            "value": 0
+                                        },
+                                        "inclination": {
+                                            "unit": "DEGREE_ANGLE",
+                                            "value": 0
+                                        },
+                                        "wires": [],
+                                        "spanGuys": [],
+                                        "spanPoints": [],
+                                        "environment": "NONE"
+                                    }
+                                ],
+                                "spanPoints": [],
+                                "notePoints": [],
+                                "pointLoads": [],
+                                "damages": [],
+                                "wires": [],
+                                "spanGuys": [],
+                                "guys": [
+                                    {
+                                        "id": "DownGuy#1",
+                                        "externalId": "-O3ECXTmEHJVVO7vrKkX",
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 308.06
+                                        },
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "clientItem": {
+                                            "size": "1/2\" EHS",
+                                            "conductorStrands": 7,
+                                            "coreStrands": 0
+                                        }
+                                    }
+                                ],
+                                "sidewalkBraces": [],
+                                "equipments": [
+                                    {
+                                        "externalId": "-O3DKYHFFqBAYEV2FNlo",
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 241.81
+                                        },
+                                        "bottomHeight": {
+                                            "unit": "INCH",
+                                            "value": 0
+                                        },
+                                        "direction": 0,
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "clientItem": {
+                                            "type": "RISER",
+                                            "size": "1 PVC"
+                                        },
+                                        "id": "Equipment#1"
+                                    }
+                                ],
+                                "crossArms": [],
+                                "insulators": [],
+                                "pushBraces": [],
+                                "assemblies": []
+                            }
+                        }
+                    ],
+                    "forms": [],
+                    "geographicCoordinate": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.598836,
+                            35.069798
+                        ]
+                    },
+                    "technician": "rtarroyo@techservltd.net, wgreen@techservltd.net",
+                    "crossStreet1": "",
+                    "crossStreet2": "",
+                    "images": [],
+                    "mapNumber": "",
+                    "poleTags": [],
+                    "remedies": [],
+                    "summaryNotes": [],
+                    "userDefinedValues": {
+                        "nodeId": "-O1YQn3ZZugB9JZigyS_"
+                    }
+                },
+                {
+                    "label": "U - 002 - ",
+                    "address": {
+                        "number": "",
+                        "street": "Sierra Drive Southeast",
+                        "city": "Albuquerque",
+                        "county": "Bernalillo County",
+                        "state": "New Mexico",
+                        "zip_code": ""
+                    },
+                    "comments": "",
+                    "designs": [
+                        {
+                            "label": "Existing",
+                            "analysis": [],
+                            "geographicCoordinate": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -106.59854,
+                                    35.069567
+                                ]
+                            },
+                            "structure": {
+                                "pole": {
+                                    "externalId": "-O1YQn3ZZugB9JZigyRx",
+                                    "agl": {
+                                        "unit": "INCH",
+                                        "value": 336.09
+                                    },
+                                    "leanAngle": 0,
+                                    "leanDirection": 0,
+                                    "environment": "PARALLEL_TO_STREET",
+                                    "temperature": {
+                                        "unit": "FAHRENHEIT",
+                                        "value": 60
+                                    },
+                                    "stressRatio": 1,
+                                    "clientItem": {
+                                        "height": {
+                                            "unit": "FOOT",
+                                            "value": 35
+                                        },
+                                        "classOfPole": "1",
+                                        "species": "Missing pole_species on SCID002"
+                                    },
+                                    "owner": {
+                                        "id": "PNM",
+                                        "industry": "UTILITY"
+                                    }
+                                },
+                                "foundations": [],
+                                "anchors": [
+                                    {
+                                        "id": "Anchor#1",
+                                        "externalId": "-O347UYYdtoYNVrKjoPI",
+                                        "distance": {
+                                            "unit": "FOOT",
+                                            "value": 27
+                                        },
+                                        "direction": 134,
+                                        "height": {
+                                            "unit": "FOOT",
+                                            "value": 0
+                                        },
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "supportType": "Other",
+                                        "guys": [
+                                            "DownGuy#1"
+                                        ],
+                                        "clientItem": "Missing anchor_spec on SCID 002",
+                                        "supportedWEPs": []
+                                    }
+                                ],
+                                "wireEndPoints": [
+                                    {
+                                        "id": "WEP#1",
+                                        "externalId": "-O1YQn3YI-rzkRZrYsL2",
+                                        "connectionId": "1f0b9cc703667a82cd242bc5",
+                                        "distance": {
+                                            "unit": "FOOT",
+                                            "value": 73
+                                        },
+                                        "direction": 125,
+                                        "type": "OTHER_POLE",
+                                        "relativeElevation": {
+                                            "unit": "INCH",
+                                            "value": 0
+                                        },
+                                        "inclination": {
+                                            "unit": "DEGREE_ANGLE",
+                                            "value": 0
+                                        },
+                                        "wires": [
+                                            "Wire#1",
+                                            "Wire#2"
+                                        ],
+                                        "spanGuys": [],
+                                        "spanPoints": [],
+                                        "environment": "NONE"
+                                    },
+                                    {
+                                        "id": "WEP#2",
+                                        "externalId": "-O347Jggki4p-GOlSifJ",
+                                        "connectionId": "da1281347b14eeddf83fc872",
+                                        "distance": {
+                                            "unit": "FOOT",
+                                            "value": 81
+                                        },
+                                        "direction": 280,
+                                        "type": "BUILDING",
+                                        "relativeElevation": {
+                                            "unit": "INCH",
+                                            "value": 0
+                                        },
+                                        "inclination": {
+                                            "unit": "DEGREE_ANGLE",
+                                            "value": 0
+                                        },
+                                        "wires": [],
+                                        "spanGuys": [],
+                                        "spanPoints": [],
+                                        "environment": "NONE"
+                                    }
+                                ],
+                                "spanPoints": [],
+                                "notePoints": [],
+                                "pointLoads": [],
+                                "damages": [],
+                                "wires": [
+                                    {
+                                        "externalId": "-O3DAVnK6Unpw2ZUziKc",
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 334
+                                        },
+                                        "usageGroup": "PRIMARY",
+                                        "tensionGroup": "Full",
+                                        "tensionAdjustment": 1,
+                                        "connectionId": "9b3d19e209361a9e49e7c6a5",
+                                        "midspanHeight": {
+                                            "unit": "INCH",
+                                            "value": 349
+                                        },
+                                        "clientItem": {
+                                            "size": "2/O ACSR",
+                                            "conductorStrands": 6,
+                                            "coreStrands": 1
+                                        },
+                                        "id": "Wire#1"
+                                    },
+                                    {
+                                        "externalId": "-O3DAa0o9y4cOpslfAYd",
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 267
+                                        },
+                                        "usageGroup": "NEUTRAL",
+                                        "tensionGroup": "Full",
+                                        "tensionAdjustment": 1,
+                                        "connectionId": "d0dce7fa6ea8625922ab66f7",
+                                        "midspanHeight": {
+                                            "unit": "INCH",
+                                            "value": 290
+                                        },
+                                        "clientItem": {
+                                            "size": "1/0 ACSR",
+                                            "conductorStrands": 6,
+                                            "coreStrands": 1
+                                        },
+                                        "id": "Wire#2"
+                                    }
+                                ],
+                                "spanGuys": [],
+                                "guys": [
+                                    {
+                                        "id": "DownGuy#1",
+                                        "externalId": "-O3DCj5eEuN-eb58kiNG",
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 318.97
+                                        },
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "clientItem": {
+                                            "size": "1/4\" EHS",
+                                            "conductorStrands": 7,
+                                            "coreStrands": 0
+                                        }
+                                    }
+                                ],
+                                "sidewalkBraces": [],
+                                "equipments": [
+                                    {
+                                        "externalId": "-O3DIM3KN7HNmzHDIxk8",
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 272.94
+                                        },
+                                        "bottomHeight": {
+                                            "unit": "INCH",
+                                            "value": 0
+                                        },
+                                        "direction": 0,
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "clientItem": {
+                                            "type": "RISER",
+                                            "size": "2 PVC"
+                                        },
+                                        "id": "Equipment#1"
+                                    },
+                                    {
+                                        "externalId": "-O3DIUuaG-RVAdHH9cqF",
+                                        "attachmentHeight": {
+                                            "unit": "INCH",
+                                            "value": 294.03
+                                        },
+                                        "bottomHeight": {
+                                            "unit": "INCH",
+                                            "value": 283.09
+                                        },
+                                        "direction": 0,
+                                        "owner": {
+                                            "id": "PNM",
+                                            "industry": "UTILITY"
+                                        },
+                                        "clientItem": {
+                                            "type": "TRANSFORMER",
+                                            "size": ""
+                                        },
+                                        "id": "Equipment#2"
+                                    }
+                                ],
+                                "crossArms": [],
+                                "insulators": [],
+                                "pushBraces": [],
+                                "assemblies": []
+                            }
+                        }
+                    ],
+                    "forms": [],
+                    "geographicCoordinate": {
+                        "type": "Point",
+                        "coordinates": [
+                            -106.59854,
+                            35.069567
+                        ]
+                    },
+                    "technician": "rtarroyo@techservltd.net, wgreen@techservltd.net",
+                    "crossStreet1": "",
+                    "crossStreet2": "",
+                    "images": [],
+                    "mapNumber": "",
+                    "poleTags": [],
+                    "remedies": [],
+                    "summaryNotes": [],
+                    "userDefinedValues": {
+                        "nodeId": "-O1YQn3ZZugB9JZigyRx"
+                    }
+                }
+            ]
+        }
+    ]
+}

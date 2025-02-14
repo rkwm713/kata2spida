@@ -1,0 +1,3815 @@
+{
+  "label": "SPIDA Test X-Small",
+  "schema": "resources/v1/schema/spidacalc/calc/project.schema",
+  "version": 9,
+  "clientFile": "",
+  "clientFileVersion": "",
+  "date": "2024-11-11",
+  "engineer": "",
+  "generalLocation": "",
+  "address": {
+    "number": "",
+    "street": "",
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip_code": ""
+  },
+  "comments": "",
+  "userDefinedValues": {},
+  "forms": [],
+  "leads": [
+    {
+      "label": "SPIDA Test X-Small",
+      "locations": [
+        {
+          "label": "U - 27 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -102.0090402393218,
+                  33.58885374701626
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-NXWcibMO_PPUIWylGUi",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 459.26
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Southern Pine",
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 45
+                    },
+                    "classOfPole": "5"
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-NaSskSkyp3G8HPiOywR",
+                    "connectionId": "b3bc101a7ef0e5717fc47d55",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 150
+                    },
+                    "direction": 359,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#1",
+                      "Wire#3",
+                      "Wire#5",
+                      "Wire#7",
+                      "Wire#14"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-NXWckGRmOGn9-5REf-u",
+                    "connectionId": "25b95f5161038c7e0aaf141f",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 83
+                    },
+                    "direction": 180,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#2",
+                      "Wire#4",
+                      "Wire#6",
+                      "Wire#8",
+                      "Wire#10",
+                      "Wire#11",
+                      "Wire#12"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-NXWhIXRFD9s42e23kn1",
+                    "connectionId": "d001dd4dedcca880b62e294b",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 91
+                    },
+                    "direction": 71,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#9",
+                      "Wire#13"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "6dda3fee146c0a3d1d662ed2",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 405.02
+                    },
+                    "clientItem": {
+                      "size": "4 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#1",
+                    "connectedWire": "Wire#2"
+                  },
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "1524552f9dbaca06ec2fd081",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 464.6
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#2",
+                    "connectedWire": "Wire#1"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "616ce0a4e9000bc26e5b2525",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 350.4
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#3",
+                    "connectedWire": "Wire#4"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "e31ceff7f4f6b8058c6c2af9",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 405.01
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#4",
+                    "connectedWire": "Wire#3"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "b8eba4258fa20f482e090c2b",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 328.46
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#5",
+                    "connectedWire": "Wire#6"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c61bec17b9b1a750227bb75f",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 380.39
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#6",
+                    "connectedWire": "Wire#5"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 453.03
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "50557e23361b68b4d4bda6c3",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 440.84
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#7",
+                    "connectedWire": "Wire#8"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 453.03
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "27beae3a6629af7516b8d6e5",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 506.23
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#8",
+                    "connectedWire": "Wire#7"
+                  },
+                  {
+                    "externalId": "-NZ1mt9O_XU6XYD3boyA",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 326.74
+                    },
+                    "usageGroup": "UTILITY_SERVICE",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "2b6d4c41e240589440b282eb",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 211.05
+                    },
+                    "clientItem": {
+                      "size": "1/0 TPLX SERV",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#9"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 294.65
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 27",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 27 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "007dde44f45d2f0d06508c55",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 295.94
+                    },
+                    "id": "Wire#10"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 281.41
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 27",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 27 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "ce4a54454329a1db6d94aae8",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 277.56
+                    },
+                    "id": "Wire#11"
+                  },
+                  {
+                    "externalId": "-NciOgaKfoXanfwe7Qhh",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 268.84
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 27",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 27 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "ecc365f4d591352d942e9cb0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 264.23
+                    },
+                    "id": "Wire#12"
+                  },
+                  {
+                    "externalId": "-NZ1nEEPEz_BUsLBcoNG",
+                    "owner": {
+                      "id": "Unite",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 284.4
+                    },
+                    "usageGroup": "COMMUNICATION_SERVICE",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c43a9a76e26d630ebda974be",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 163.55
+                    },
+                    "clientItem": {
+                      "size": "6x24 ADP NMS 0.38\"",
+                      "conductorStrands": 0,
+                      "coreStrands": 0
+                    },
+                    "id": "Wire#13"
+                  },
+                  {
+                    "externalId": "-NZ1h2QhJI7FwB5rhacH",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 27",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 27 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "8ae06e36ff594245b78784ac",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 229.36
+                    },
+                    "id": "Wire#14"
+                  }
+                ],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-NZ1mLvCFobQ23vDnGFG",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 332.28
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 311
+                    },
+                    "direction": 147,
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": "25 kVA Single Phase"
+                    },
+                    "id": "Equipment#1"
+                  },
+                  {
+                    "externalId": "-NZ1mLvCFobQ23vDnGFG",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 304.04
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 304.04
+                    },
+                    "direction": 147,
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#2"
+                  },
+                  {
+                    "externalId": "-NZ1n4qOxWbFdQvofJSd",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 188.11
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "direction": 48,
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "RISER",
+                      "size": "U-Guard"
+                    },
+                    "id": "Equipment#3"
+                  },
+                  {
+                    "externalId": "-NZ1nAie4YrpVnVXGZXu",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 128.65
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "direction": 41,
+                    "owner": {
+                      "id": "Unite",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "RISER",
+                      "size": "U-Guard"
+                    },
+                    "id": "Equipment#4"
+                  }
+                ],
+                "crossArms": [
+                  {
+                    "id": "CrossArm#1",
+                    "externalId": "-NZ1moMDtTeNF_Xg2KII",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 381.23
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 60
+                    },
+                    "direction": 90,
+                    "insulators": [
+                      "Insulator#1",
+                      "Insulator#2",
+                      "Insulator#3"
+                    ],
+                    "clientItem": "Wood 10 Ft 3-1/2 x 4-1/2 (SYP) Use this as new",
+                    "supportedWEPs": []
+                  }
+                ],
+                "insulators": [
+                  {
+                    "id": "Insulator#1",
+                    "externalId": "-NZ1moME1DQXdU1SCdSQ",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 8
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#1",
+                      "Wire#2"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#2",
+                    "externalId": "-NZ1moME1DQXdU1SCdSS",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 112
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#3",
+                      "Wire#4"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#3",
+                    "externalId": "-NZ1moME1DQXdU1SCdSU",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 52
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#5",
+                      "Wire#6"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#4",
+                    "externalId": "-NZ1mSjNag9hNXHeLask",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 453.03
+                    },
+                    "direction": 270,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#7",
+                      "Wire#8"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Pole Top)"
+                  },
+                  {
+                    "id": "Insulator#5",
+                    "externalId": "-NZ1mt9NtFDrH5e581wx",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 326.74
+                    },
+                    "direction": 71,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#9"
+                    ],
+                    "clientItem": "3\" Clevis Insulator"
+                  },
+                  {
+                    "id": "Insulator#6",
+                    "externalId": "-NZ1nNxkiTLFG4D9ZnXT",
+                    "owner": {
+                      "id": "Unset Owner",
+                      "industry": "UTILITY"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 294.49
+                    },
+                    "direction": 269,
+                    "doubleInsulator": false,
+                    "wires": [],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#7",
+                    "externalId": "-NciOP29LiZ1QPhFBpJ2",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 294.65
+                    },
+                    "direction": 180,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#10"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#8",
+                    "externalId": "-NciOVJ7vKUheip9mtFm",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 281.41
+                    },
+                    "direction": 180,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#11"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#9",
+                    "externalId": "-NciOkzq1cSl0HNkUIpB",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 268.84
+                    },
+                    "direction": 180,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#12"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  }
+                ],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -102.0090402393218,
+              33.58885374701626
+            ]
+          },
+          "technician": "ccolclasure@techservltd.net, moverstreet@techservltd.net",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8715.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8721.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8722.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8717.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8719.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8716.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8720.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_27_IMG_8718.JPG"
+            }
+          ],
+          "mapNumber": "",
+          "poleTags": [],
+          "remedies": [
+            {
+              "description": "Unite Com Drop at 23'-8\": Lower 20\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-NXWcibMO_PPUIWylGUi"
+          }
+        },
+        {
+          "label": "U - 28 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -102.00903842601103,
+                  33.58862531953711
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-NXWckGRmOGn9-5REf-u",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 442.65
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Southern Pine",
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 45
+                    },
+                    "classOfPole": "5"
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-NXWcibMO_PPUIWylGUi",
+                    "connectionId": "25b95f5161038c7e0aaf141f",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 83
+                    },
+                    "direction": 360,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#1",
+                      "Wire#3",
+                      "Wire#5",
+                      "Wire#7",
+                      "Wire#11",
+                      "Wire#13",
+                      "Wire#15"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-NXWdBO2s902V2OcZWgP",
+                    "connectionId": "0100bf2208f02a1f9e2832ab",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 215
+                    },
+                    "direction": 180,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#2",
+                      "Wire#4",
+                      "Wire#6",
+                      "Wire#8",
+                      "Wire#12",
+                      "Wire#14"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-NXWcopVf4LKzwuwcd7a",
+                    "connectionId": "47244d8571038980ecca82fa",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 31
+                    },
+                    "direction": 89,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#9",
+                      "Wire#10"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "1524552f9dbaca06ec2fd081",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 464.6
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#1",
+                    "connectedWire": "Wire#2"
+                  },
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "0cad3bcc57f4df55b09917d2",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 398.67
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#2",
+                    "connectedWire": "Wire#1"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "e31ceff7f4f6b8058c6c2af9",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 405.01
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#3",
+                    "connectedWire": "Wire#4"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "71af5fa53d9f89da205addbb",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 361.62
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#4",
+                    "connectedWire": "Wire#3"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c61bec17b9b1a750227bb75f",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 380.39
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#5",
+                    "connectedWire": "Wire#6"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "da5743d343f8bb854cdbe1a4",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 345.76
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#6",
+                    "connectedWire": "Wire#5"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 437.29
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "27beae3a6629af7516b8d6e5",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 506.23
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#7",
+                    "connectedWire": "Wire#8"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 437.29
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "bade37bff4299f05271bc715",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 449.05
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#8",
+                    "connectedWire": "Wire#7"
+                  },
+                  {
+                    "externalId": "-NZ1lgamomHK5crPV6Pd",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 341.91
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "3b9927cf5de63bf98ef1286e",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 332.63
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#9"
+                  },
+                  {
+                    "externalId": "-NZ1ljY1BMOEpjY3s7zD",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 292.59
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "27a8060afb5a8dc08f498674",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 287.76
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#10"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 272.74
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 28",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 28 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "007dde44f45d2f0d06508c55",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 295.94
+                    },
+                    "id": "Wire#11",
+                    "connectedWire": "Wire#12"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 272.74
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 28",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 28 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "f4bee0f19452df1795d5c637",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 241.81
+                    },
+                    "id": "Wire#12",
+                    "connectedWire": "Wire#11"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 258.11
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 28",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 28 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "ce4a54454329a1db6d94aae8",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 277.56
+                    },
+                    "id": "Wire#13",
+                    "connectedWire": "Wire#14"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 258.11
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 28",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 28 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "f71f84df289e4830892a5772",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 204.77
+                    },
+                    "id": "Wire#14",
+                    "connectedWire": "Wire#13"
+                  },
+                  {
+                    "externalId": "-NciOgaKfoXanfwe7Qhh",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 244.44
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 28",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 28 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "ecc365f4d591352d942e9cb0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 264.23
+                    },
+                    "id": "Wire#15"
+                  }
+                ],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [
+                  {
+                    "id": "CrossArm#1",
+                    "externalId": "-NZ1lPlap0lUdoAqEqvR",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 366.03
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 60
+                    },
+                    "direction": 90,
+                    "insulators": [
+                      "Insulator#1",
+                      "Insulator#2",
+                      "Insulator#3"
+                    ],
+                    "clientItem": "Wood 10 Ft 3-1/2 x 4-1/2 (SYP) Use this as new",
+                    "supportedWEPs": []
+                  }
+                ],
+                "insulators": [
+                  {
+                    "id": "Insulator#1",
+                    "externalId": "-NZ1lPlb25Y5Kjav6u37",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 8
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#1",
+                      "Wire#2"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#2",
+                    "externalId": "-NZ1lPlb25Y5Kjav6u39",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 112
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#3",
+                      "Wire#4"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#3",
+                    "externalId": "-NZ1lPlb25Y5Kjav6u3B",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 52
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#5",
+                      "Wire#6"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#4",
+                    "externalId": "-NZ1lNwA_7IYuusXSzBC",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 437.29
+                    },
+                    "direction": 270,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#7",
+                      "Wire#8"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Pole Top)"
+                  },
+                  {
+                    "id": "Insulator#5",
+                    "externalId": "-NZ1lgamomHK5crPV6P_",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 341.91
+                    },
+                    "direction": 89,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#9"
+                    ],
+                    "clientItem": "24.9 kV Dead End Insulator"
+                  },
+                  {
+                    "id": "Insulator#6",
+                    "externalId": "-NZ1ljY1BMOEpjY3s7z9",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 292.59
+                    },
+                    "direction": 89,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#10"
+                    ],
+                    "clientItem": "Neutral - D/E Clamp"
+                  },
+                  {
+                    "id": "Insulator#7",
+                    "externalId": "-NciODTAKN6LCHXNS-4I",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 272.74
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#11",
+                      "Wire#12"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#8",
+                    "externalId": "-NciOSIwP8n2N9LWXg0i",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 258.11
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#13",
+                      "Wire#14"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#9",
+                    "externalId": "-NciOgaLUvrxNA2m6tni",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 244.44
+                    },
+                    "direction": 360,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#15"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  }
+                ],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -102.00903842601103,
+              33.58862531953711
+            ]
+          },
+          "technician": "ccolclasure@techservltd.net, moverstreet@techservltd.net",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [
+            {
+              "url": "Photos/SPIDA Test X-Small_28_IMG_8702.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_28_IMG_8703.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_28_IMG_8701.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_28_IMG_8699.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_28_IMG_8700.JPG"
+            }
+          ],
+          "mapNumber": "",
+          "poleTags": [],
+          "remedies": [],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-NXWckGRmOGn9-5REf-u"
+          }
+        },
+        {
+          "label": "U - 29 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -102.0089381784491,
+                  33.58862671601427
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-NXWcopVf4LKzwuwcd7a",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 326.44
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Southern Pine",
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 35
+                    },
+                    "classOfPole": "5"
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-NYO3l9Zf-grU3nuUDg1",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 22
+                    },
+                    "direction": 270,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [
+                      "DownGuy#1"
+                    ],
+                    "clientItem": "Missing anchor_spec on SCID 29",
+                    "supportedWEPs": [
+                      "WEP#2"
+                    ]
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-NXWckGRmOGn9-5REf-u",
+                    "connectionId": "47244d8571038980ecca82fa",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 31
+                    },
+                    "direction": 269,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#1",
+                      "Wire#3"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-NXWhNM4rBsP6ItmNCol",
+                    "connectionId": "e5400ea2e7e57b48d677fa0e",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 129
+                    },
+                    "direction": 90,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#2",
+                      "Wire#4"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [
+                  {
+                    "externalId": "-NZ1lgamomHK5crPV6Pd",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 322.82
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "3b9927cf5de63bf98ef1286e",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 332.63
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#1"
+                  },
+                  {
+                    "externalId": "-NZ1m2syLstfOzuvt1RF",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 312.74
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "9d96028102209d0ea1c6703e",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 336.33
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#2"
+                  },
+                  {
+                    "externalId": "-NZ1ljY1BMOEpjY3s7zD",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 284.61
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "27a8060afb5a8dc08f498674",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 287.76
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#3"
+                  },
+                  {
+                    "externalId": "-NZ1m8zr_imIedJ2ULJi",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 268.35
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "3e5fca402829897543b55ada",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 285.87
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#4"
+                  }
+                ],
+                "spanGuys": [],
+                "guys": [
+                  {
+                    "id": "DownGuy#1",
+                    "externalId": "-NZ1mBFpmJwSzqKSwo1i",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 298.05
+                    },
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "size": "Missing wire_spec on down_guy on SCID 29",
+                      "conductorStrands": 7,
+                      "coreStrands": 0
+                    }
+                  }
+                ],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [
+                  {
+                    "id": "Insulator#1",
+                    "externalId": "-NZ1m0a-4zcM3-biN_iQ",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 322.82
+                    },
+                    "direction": 269,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#1"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Pole Top)"
+                  },
+                  {
+                    "id": "Insulator#2",
+                    "externalId": "-NZ1m2syLstfOzuvt1RB",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 312.74
+                    },
+                    "direction": 90,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#2"
+                    ],
+                    "clientItem": "24.9 kV Dead End Insulator"
+                  },
+                  {
+                    "id": "Insulator#3",
+                    "externalId": "-NZ1m73icTgNduvqqxgd",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 284.61
+                    },
+                    "direction": 359,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#3"
+                    ],
+                    "clientItem": "3\" Spool Tangent"
+                  },
+                  {
+                    "id": "Insulator#4",
+                    "externalId": "-NZ1m8zr_imIedJ2ULJe",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 268.35
+                    },
+                    "direction": 90,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#4"
+                    ],
+                    "clientItem": "Neutral - D/E Clamp"
+                  }
+                ],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -102.0089381784491,
+              33.58862671601427
+            ]
+          },
+          "technician": "ccolclasure@techservltd.net, moverstreet@techservltd.net",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8707.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8710.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8706.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8711.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8708.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8705.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_29_IMG_8709.JPG"
+            }
+          ],
+          "mapNumber": "",
+          "poleTags": [],
+          "remedies": [],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-NXWcopVf4LKzwuwcd7a"
+          }
+        },
+        {
+          "label": "U - 33 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -102.0090361463423,
+                  33.58803741582424
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-NXWdBO2s902V2OcZWgP",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 453.14
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Southern Pine",
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 45
+                    },
+                    "classOfPole": "4"
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-NXWckGRmOGn9-5REf-u",
+                    "connectionId": "0100bf2208f02a1f9e2832ab",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 215
+                    },
+                    "direction": 360,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#1",
+                      "Wire#3",
+                      "Wire#5",
+                      "Wire#7",
+                      "Wire#9",
+                      "Wire#11"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-NXWdCYT7o-Tsax1QuLF",
+                    "connectionId": "3d7acd6b112d4cbd69794643",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 77
+                    },
+                    "direction": 180,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#2",
+                      "Wire#4",
+                      "Wire#6",
+                      "Wire#8",
+                      "Wire#10",
+                      "Wire#12",
+                      "Wire#13"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "0cad3bcc57f4df55b09917d2",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 398.67
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#1",
+                    "connectedWire": "Wire#2"
+                  },
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "bb07ffcb31109584f9505c6e",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 440.42
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#2",
+                    "connectedWire": "Wire#1"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "71af5fa53d9f89da205addbb",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 361.62
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#3",
+                    "connectedWire": "Wire#4"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "a3ec412837624d5060091a08",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 396.92
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#4",
+                    "connectedWire": "Wire#3"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "da5743d343f8bb854cdbe1a4",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 345.76
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#5",
+                    "connectedWire": "Wire#6"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "98aa163dfd1f5f12044c5ccb",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 377.89
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#6",
+                    "connectedWire": "Wire#5"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 447.87
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "bade37bff4299f05271bc715",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 449.05
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#7",
+                    "connectedWire": "Wire#8"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 447.87
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "7daa88291dc1742ed0f1b0b0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 492.72
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#8",
+                    "connectedWire": "Wire#7"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 231.5
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 33",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 33 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "f4bee0f19452df1795d5c637",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 241.81
+                    },
+                    "id": "Wire#9",
+                    "connectedWire": "Wire#10"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 231.5
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 33",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 33 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c0ef791a9917548b2fe87bf1",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 239.42
+                    },
+                    "id": "Wire#10",
+                    "connectedWire": "Wire#9"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 216.36
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 33",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 33 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "f71f84df289e4830892a5772",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 204.77
+                    },
+                    "id": "Wire#11",
+                    "connectedWire": "Wire#12"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 216.36
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 33",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 33 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "97c3215c97498be0ee29db1c",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 218.5
+                    },
+                    "id": "Wire#12",
+                    "connectedWire": "Wire#11"
+                  },
+                  {
+                    "externalId": "-NciOgaKfoXanfwe7Qhh",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 203.33
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 33",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": ""
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 33 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c82818b4dffa54f9345c29f0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 206.61
+                    },
+                    "id": "Wire#13"
+                  }
+                ],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-NZ1kzxOKlUcwOoA-YQH",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 262.32
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 246.81
+                    },
+                    "direction": 90,
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER_BANK",
+                      "size": "3-10 KVA (3Ø CL MT)"
+                    },
+                    "id": "Equipment#1"
+                  },
+                  {
+                    "externalId": "-NZ1kzxOKlUcwOoA-YQH",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 237.05
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 237.05
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#2"
+                  },
+                  {
+                    "externalId": "-N_FhmhS_0hQ9O6ngo2Y",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 246.44
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "direction": 270,
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "RISER",
+                      "size": "1 Metal"
+                    },
+                    "id": "Equipment#3"
+                  }
+                ],
+                "crossArms": [
+                  {
+                    "id": "CrossArm#1",
+                    "externalId": "-NZ1l58nSWm4HqGJ6Smw",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 373.98
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 60
+                    },
+                    "direction": 90,
+                    "insulators": [
+                      "Insulator#1",
+                      "Insulator#2",
+                      "Insulator#3"
+                    ],
+                    "clientItem": "Wood 10 Ft 3-1/2 x 4-1/2 (SYP) Use this as new",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "CrossArm#2",
+                    "externalId": "-NZ1lCf3U_oDIUzlR4i2",
+                    "owner": {
+                      "id": "Unset Owner",
+                      "industry": "UTILITY"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 310.32
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 48
+                    },
+                    "direction": 90,
+                    "insulators": [],
+                    "clientItem": "Wood - 8' (3-5/8\" x 4-5/8\") (SP)",
+                    "supportedWEPs": []
+                  }
+                ],
+                "insulators": [
+                  {
+                    "id": "Insulator#1",
+                    "externalId": "-NZ1l58obny6oMIHsj-p",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 8
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#1",
+                      "Wire#2"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#2",
+                    "externalId": "-NZ1l58obny6oMIHsj-r",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 112
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#3",
+                      "Wire#4"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#3",
+                    "externalId": "-NZ1l58obny6oMIHsj-t",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 52
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#5",
+                      "Wire#6"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#4",
+                    "externalId": "-NZ1l3zKzxbIOpwGd6cE",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 447.87
+                    },
+                    "direction": 270,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#7",
+                      "Wire#8"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Pole Top)"
+                  },
+                  {
+                    "id": "Insulator#5",
+                    "externalId": "-NciPBQSm0BFYySkUAZQ",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 231.5
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#9",
+                      "Wire#10"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#6",
+                    "externalId": "-NciPGRX4PzkrBXkS4iR",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 216.36
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#11",
+                      "Wire#12"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#7",
+                    "externalId": "-NciPHYGF3AkrbYHLxq2",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 203.33
+                    },
+                    "direction": 180,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#13"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  }
+                ],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -102.0090361463423,
+              33.58803741582424
+            ]
+          },
+          "technician": "ccolclasure@techservltd.net, moverstreet@techservltd.net",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8691.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8693.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8697.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8696.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8694.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8692.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8690.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_33_IMG_8695.JPG"
+            }
+          ],
+          "mapNumber": "",
+          "poleTags": [],
+          "remedies": [
+            {
+              "description": "Pole Top: Replace 45' class 4 pole with 50' class 3 pole"
+            },
+            {
+              "description": "Neutral at 37'-4\": Raise 63\""
+            },
+            {
+              "description": "Primary at 31'-2\": Raise 63\""
+            },
+            {
+              "description": "Primary at 31'-2\": Raise 63\""
+            },
+            {
+              "description": "Primary at 31'-2\": Raise 63\""
+            },
+            {
+              "description": "Unknown Company Unknown Type at 25'-10\": Raise 63\""
+            },
+            {
+              "description": "Southern Plains Transformer Bank at 21'-10\": Raise 63\""
+            },
+            {
+              "description": "Southern Plains Riser at 20'-6\": Extend 63\""
+            },
+            {
+              "description": "Southern Plains Drip Loop at 19'-9\": Raise 63\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-NXWdBO2s902V2OcZWgP"
+          }
+        },
+        {
+          "label": "U - 34 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -102.0090358152172,
+                  33.58782558409299
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-NXWdCYT7o-Tsax1QuLF",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 445.73
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Southern Pine",
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 45
+                    },
+                    "classOfPole": "4"
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-NXWdBO2s902V2OcZWgP",
+                    "connectionId": "3d7acd6b112d4cbd69794643",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 77
+                    },
+                    "direction": 360,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#1",
+                      "Wire#3",
+                      "Wire#5",
+                      "Wire#9",
+                      "Wire#11",
+                      "Wire#12",
+                      "Wire#13"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-NXWdGh3RKFvKRhkDkas",
+                    "connectionId": "19c8615955d5af17bc3caec7",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 221
+                    },
+                    "direction": 180,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#2",
+                      "Wire#4",
+                      "Wire#6",
+                      "Wire#10"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-NXWhn7h9yb58jCepKp7",
+                    "connectionId": "ef4663c68174f924688f22a3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 96
+                    },
+                    "direction": 272,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [
+                      "Wire#7",
+                      "Wire#8"
+                    ],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "bb07ffcb31109584f9505c6e",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 440.42
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#1",
+                    "connectedWire": "Wire#2"
+                  },
+                  {
+                    "externalId": "-NZ1svW0pwFDDydDgqpn",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "e20c405079a980589e2306c7",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 409.73
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#2",
+                    "connectedWire": "Wire#1"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "a3ec412837624d5060091a08",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 396.92
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#3",
+                    "connectedWire": "Wire#4"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nD",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "28fdaf85b2df2784990802c9",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 368.86
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#4",
+                    "connectedWire": "Wire#3"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "98aa163dfd1f5f12044c5ccb",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 377.89
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#5",
+                    "connectedWire": "Wire#6"
+                  },
+                  {
+                    "externalId": "-NZ1svW1K6QeGFO_F2nG",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "3364d511e10dbf47f95c1db6",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 348.52
+                    },
+                    "clientItem": {
+                      "size": "1/0 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#6",
+                    "connectedWire": "Wire#5"
+                  },
+                  {
+                    "externalId": "-NZ1kGrTHX-RTx_UDpD5",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 335.45
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "3fc710b268e033a5af256dfd",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 317.04
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#7"
+                  },
+                  {
+                    "externalId": "-NZ1kGrTHX-RTx_UDpD8",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 335.45
+                    },
+                    "usageGroup": "PRIMARY",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "b975b1094f3cee6feadbf8a2",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 347.01
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#8"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 441.29
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "7daa88291dc1742ed0f1b0b0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 492.72
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#9",
+                    "connectedWire": "Wire#10"
+                  },
+                  {
+                    "externalId": "-NZ1fXzPrfynvVXiEr90",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 441.29
+                    },
+                    "usageGroup": "NEUTRAL",
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "6b06fd217a7a51faec137d7d",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 461.12
+                    },
+                    "clientItem": {
+                      "size": "2 ACSR",
+                      "conductorStrands": 6,
+                      "coreStrands": 1
+                    },
+                    "id": "Wire#10",
+                    "connectedWire": "Wire#9"
+                  },
+                  {
+                    "externalId": "-NciODT7056oIilc8lwk",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 221.53
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 34",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "6.6M (1/4\" EHS) (7/0)"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 34 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c0ef791a9917548b2fe87bf1",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 239.42
+                    },
+                    "id": "Wire#11"
+                  },
+                  {
+                    "externalId": "-NciOSIvDkTjxedXMKo5",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 208.61
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 34",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": "ORF-O-048-CA"
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 34 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "97c3215c97498be0ee29db1c",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 218.5
+                    },
+                    "id": "Wire#12"
+                  },
+                  {
+                    "externalId": "-NciOgaKfoXanfwe7Qhh",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 196.39
+                    },
+                    "usageGroup": "COMMUNICATION_BUNDLE",
+                    "clientItem": {
+                      "messenger": {
+                        "size": "Missing wire_spec on messenger on SCID 34",
+                        "conductorStrands": 7,
+                        "coreStrands": 0
+                      },
+                      "group": "Quick Bundles",
+                      "source": "PROJECT",
+                      "autoCalculateDiameter": true,
+                      "diameter": {
+                        "unit": "INCH",
+                        "value": 0
+                      },
+                      "bundleComponents": [
+                        {
+                          "size": ""
+                        }
+                      ],
+                      "size": "Missing wire_spec on messenger on SCID 34 - "
+                    },
+                    "tensionGroup": "Full",
+                    "tensionAdjustment": 1,
+                    "connectionId": "c82818b4dffa54f9345c29f0",
+                    "midspanHeight": {
+                      "unit": "INCH",
+                      "value": 206.61
+                    },
+                    "id": "Wire#13"
+                  }
+                ],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [
+                  {
+                    "id": "CrossArm#1",
+                    "externalId": "-NZ1kG-rM9w8Ly1fo5-B",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 364.28
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 60
+                    },
+                    "direction": 90,
+                    "insulators": [
+                      "Insulator#1",
+                      "Insulator#2",
+                      "Insulator#3"
+                    ],
+                    "clientItem": "Wood 10 Ft 3-1/2 x 4-1/2 (SYP) Use this as new",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "CrossArm#2",
+                    "externalId": "-NZ1kGrSSm2QHkjovNuE",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 335.45
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 48
+                    },
+                    "direction": 2,
+                    "insulators": [
+                      "Insulator#4",
+                      "Insulator#5"
+                    ],
+                    "clientItem": "8` HD Deadend (DA3000-96E2)",
+                    "supportedWEPs": []
+                  }
+                ],
+                "insulators": [
+                  {
+                    "id": "Insulator#1",
+                    "externalId": "-NZ1kG-rM9w8Ly1fo5-J",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 8
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#1",
+                      "Wire#2"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#2",
+                    "externalId": "-NZ1kG-rM9w8Ly1fo5-L",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 112
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#3",
+                      "Wire#4"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#3",
+                    "externalId": "-NZ1kG-rM9w8Ly1fo5-N",
+                    "owner": {
+                      "id": "South Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 52
+                    },
+                    "direction": 0,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#5",
+                      "Wire#6"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Crossarm)"
+                  },
+                  {
+                    "id": "Insulator#4",
+                    "externalId": "-NZ1kGrSSm2QHkjovNuO",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 8
+                    },
+                    "direction": 272,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#7"
+                    ],
+                    "clientItem": "Neutral - D/E Clamp"
+                  },
+                  {
+                    "id": "Insulator#5",
+                    "externalId": "-NZ1kGrSSm2QHkjovNuQ",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 88
+                    },
+                    "direction": 272,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#8"
+                    ],
+                    "clientItem": "24.9 kV Dead End Insulator"
+                  },
+                  {
+                    "id": "Insulator#6",
+                    "externalId": "-NZ1kExKYeU2sIqsBUV4",
+                    "owner": {
+                      "id": "Southern Plains",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 441.29
+                    },
+                    "direction": 270,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#9",
+                      "Wire#10"
+                    ],
+                    "clientItem": "24.9 kV Pin Type Insulator (Pole Top)"
+                  },
+                  {
+                    "id": "Insulator#7",
+                    "externalId": "-NciPPZd6dSuOk_TUHf1",
+                    "owner": {
+                      "id": "UNKN Strand",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 221.53
+                    },
+                    "direction": 360,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#11"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#8",
+                    "externalId": "-NciPUd9XyT_IkMPZa-V",
+                    "owner": {
+                      "id": "Suddenlink",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 208.61
+                    },
+                    "direction": 360,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#12"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  },
+                  {
+                    "id": "Insulator#9",
+                    "externalId": "-NciPVjq03aUx2DxrF3i",
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "offset": {
+                      "unit": "INCH",
+                      "value": 196.39
+                    },
+                    "direction": 360,
+                    "doubleInsulator": false,
+                    "wires": [
+                      "Wire#13"
+                    ],
+                    "clientItem": "3 Bolt Clamp"
+                  }
+                ],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -102.0090358152172,
+              33.58782558409299
+            ]
+          },
+          "technician": "ccolclasure@techservltd.net, moverstreet@techservltd.net",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_0213.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8684.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8686.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8687.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8682.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8683.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8680.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8685.JPG"
+            },
+            {
+              "url": "Photos/SPIDA Test X-Small_34_IMG_8681.JPG"
+            }
+          ],
+          "mapNumber": "",
+          "poleTags": [],
+          "remedies": [],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-NXWdCYT7o-Tsax1QuLF"
+          }
+        }
+      ]
+    }
+  ]
+}
